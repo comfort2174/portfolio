@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
+
+i {
+    padding:0.5em;
+}
+main {
+    background-color:rgb(205, 218, 214);
+}
+
+.navbar  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1em;
+    align-items:center;
+    min-height: 50px;
+}
+.nav-link:hover{
+    color:darkred;
+}
+
+footer {
+    background-color:rgb(215, 195, 219);
+}
